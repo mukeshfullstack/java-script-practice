@@ -1,0 +1,12 @@
+
+function placeOrder(){
+var orderIteam ="Iphone";
+let quantity = 1; 
+if ( quantity < 2){
+let discount = 30;
+console.log("Total Discount", discount);
+    }
+    console.log("Total Quantity", quantity);
+}
+
+placeOrder();
